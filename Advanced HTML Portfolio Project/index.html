@@ -8,22 +8,169 @@
 </head>
 
 <body>
-     <header>
+     <main id="main-content" role="main">
+          <header>
 
-          <nav>
-               <a href="./myWork.html" rel="noopener noreferrer"><button>View My Work</button></a>
-               <a href="./contact.html" rel="noopener noreferrer"><button>Contact Me</button></a>
-               <a href="./about.html" rel="noopener noreferrer"><button>About Me</button></a>
-               <a href="./faq.html" rel="noopener noreferrer"><button>FAQ</button></a>
-               <a href="./blog.html" rel="noopener noreferrer"><button>Blog</button></a>
-          </nav>
-          <h1>Mohamed Reda's Portfolio</h1>
-          <blockquote>“Constantly learning, consistently improving, and always delivering value.”</blockquote>
-     </header>
-     <section style="text-align: center">
-          <video src="./assets/intro-video.mp4" poster="./assets/images/intro-video-poster.png" width="50%" height="364"
-               controls aria-label="Introductory video about myself in English, 3 minutes long"></video>
-     </section>
+               <nav role="navigation">
+                    <a href="./myWork.html" rel="noopener noreferrer"><button>View My Work</button></a>
+                    <a href="./contact.html" rel="noopener noreferrer"><button>Contact Me</button></a>
+                    <a href="./about.html" rel="noopener noreferrer"><button>About Me</button></a>
+                    <a href="./faq.html" rel="noopener noreferrer"><button>FAQ</button></a>
+                    <a href="./blog.html" rel="noopener noreferrer"><button>Blog</button></a>
+               </nav>
+               <a href="#main-content" class="skip-link">Skip to main content</a>
+               <h1>Mohamed Reda's Portfolio</h1>
+               <blockquote>"Constantly learning, consistently improving, and always delivering value."</blockquote>
+          </header>
+          <main role="main">
+               <section style="text-align: center">
+                    <video src="./assets/intro-video" poster="./assets/images/intro-video-poster.png" width="50%"
+                         height="364" controls
+                         aria-label="Introductory video about myself in English, 3 minutes long"></video>
+               </section>
+               <section>
+                    <h2>Featured Work</h2>
+                    <iframe src="https://www.youtube.com/embed/my-project-demo" width="560" height="315"
+                         title="Project Demo Video" role="presentation" loading="lazy"
+                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+               </section>
+               <section>
+                    <h2>Skills</h2>
+                    <ul>
+                         <li>
+                              HTML <progress value="70" max="100">70%</progress>
+                         </li>
+                    </ul>
+                    <ul>
+                         <li>
+                              CSS <progress value="50" max="100">50%</progress>
+                         </li>
+                    </ul>
+                    <ul>
+                         <li>
+                              JS <progress value="30" max="100">30%</progress>
+                         </li>
+                    </ul>
+                    <h3>Certifications and Awards</h3>
+
+                    <dl>
+                         <dt>Certified Web Developer</dt>
+                         <dd>Comprehensive certification in front-end and back-end web development, including HTML, CSS,
+                              JavaScript, and Node.js.</dd>
+                         <dt>Cloud Practitioner</dt>
+                         <dd>Demonstrated knowledge of cloud technologies and their implementation in modern software
+                              solutions.</dd>
+                    </dl>
+
+                    <h4>Certifications</h4>
+
+                    <dl>
+                         <dt>JavaScript Specialist</dt>
+                         <dd>Validated advanced skills in JavaScript, including ES6+ features, asynchronous programming,
+                              and
+                              frameworks like React.</dd>
+                         <dt>Responsive Web Design</dt>
+                         <dd>Awarded for successfully completing projects in creating mobile-friendly, accessible
+                              websites.
+                         </dd>
+                    </dl>
+
+                    <h4>Awards</h4>
+
+                    <dl>
+                         <dt>Best Innovation in Web Design</dt>
+                         <dd>Recognized for designing a creative and user-friendly e-commerce platform during a national
+                              competition.</dd>
+                         <dt>Top Performer in Software Engineering</dt>
+                         <dd>Achieved distinction for outstanding performance in academic and practical projects at XYZ
+                              University.</dd>
+                    </dl>
+                    <h3>Downloadable Resume</h3>
+                    <p>
+                         <a href="assets/downloads/Mohamed Reda - Resume.pdf" download>Download My Resume</a>
+                    </p>
+               </section>
+               <section>
+                    <h2>Education Timeline</h2>
+                    <ol>
+                         <li>
+                              <strong>Cairo University</strong> - Postgraduate Diploma in Computer Science<br>
+                              <em>Sep. 2021 – Present</em><br>
+                              Key coursework in computer networks, databases, C++, and compilers.
+                         </li>
+                         <li>
+                              <strong>AWS re/Start Bootcamp</strong> - Sprints.ai<br>
+                              <em>Jul. 2022 – Sep. 2022</em><br>
+                              Classroom-based training on IT fundamentals, AWS Cloud, and professional skills.
+                         </li>
+                         <li>
+                              <strong>Backend (.NET) Bootcamp</strong> - Career 180<br>
+                              <em>Oct. 2024 – Dec. 2024</em><br>
+                              Focused on .NET, C#, and OOP principles for backend development and REST API design.
+                         </li>
+                    </ol>
+
+                    <h3>Achievements in Education</h3>
+                    <dl>
+                         <dt>Best Practices in Backend Development</dt>
+                         <dd>
+                              Implemented scalable ASP.NET Core REST APIs with advanced security features like
+                              Authentication
+                              and Authorization during the Career 180 Bootcamp.
+                         </dd>
+                         <dt>AWS Certified Cloud Practitioner</dt>
+                         <dd>
+                              Gained foundational knowledge of AWS Cloud concepts and mastered services like EC2, S3,
+                              Lambda,
+                              and VPC.
+                         </dd>
+                    </dl>
+
+                    <h3>Online Courses and Certifications</h3>
+                    <ul>
+                         <li>AWS Certified Cloud Practitioner - Demonstrated foundational knowledge of AWS services and
+                              cloud
+                              concepts.</li>
+                         <li>Backend (.NET) Bootcamp - Built practical projects such as a Contact Management System and
+                              Blogging Platform.</li>
+                         <li>AWS re/Start Program - Acquired IT fundamentals and cloud computing expertise through
+                              practical,
+                              hands-on training.</li>
+                    </ul>
+               </section>
+               <section>
+                    <h2>Projects</h2>
+                    <header>
+                         <h3>Web Development</h3>
+                    </header>
+                    <article>
+                         <h4>Contact Management System</h4>
+                         <p>
+                              A full-featured contact management system built during the Backend (.NET) Bootcamp.
+                              This project demonstrates the use of REST APIs, authentication, and authorization for
+                              managing
+                              user data securely.
+                         </p>
+                         <p>
+                              <a href="https://github.com/alexnder394/contact-management-system" target="_blank">View on
+                                   GitHub</a>
+                         </p>
+                         <figure>
+                              <img src="./assets/images/gitbuhProject.png"
+                                   alt="Screenshot of the Contact Management System" width="300">
+                              <figcaption>A screenshot showcasing the dashboard of the Contact Management System.
+                              </figcaption>
+                         </figure>
+                         <ul>
+                              <li>ASP.NET Core</li>
+                              <li>Entity Framework Core</li>
+                              <li>SQL Server</li>
+                              <li>RESTful API</li>
+                              <li>Authentication &amp; Authorization</li>
+                         </ul>
+                    </article>
+               </section>
+          </main>
 </body>
 
 </html>
